@@ -13,7 +13,8 @@ mkdir lucee
 
 3. Move and Unzip the Lucee file
 ```console
-mv lucee-4.5.5.015-express.zip lucee
+mv lucee-4.5.5.015-express.zip lucee/
+cd lucee/
 unzip lucee-4.5.5.015-express.zip
 ```
 
