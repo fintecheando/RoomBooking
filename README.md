@@ -1,3 +1,44 @@
+# Install
+
+1. Download Lucee Application Server
+
+wget https://cdn.lucee.org/lucee-4.5.5.015-express.zip
+
+2. Create a folder for Lucee
+
+mkdir lucee
+
+3. Move and Unzip the Lucee file
+
+mv lucee-4.5.5.015-express.zip lucee
+unzip lucee-4.5.5.015-express.zip
+
+4. Move the ROOT folder located in the webapps folder
+
+mv ROOT ../
+mkdir ROOT
+
+5. Clone the repository
+
+cd ROOT
+git clone https://github.com/fintecheando/RoomBooking.git
+
+6. Start the application server
+
+./startup.sh
+
+7. Create a Datasource in the Admin Server view
+
+http://localhost:8888/lucee/admin/server.cfm
+
+8. Install the Application and make sure that everything is in green
+
+http://localhost:8888/install/
+
+9. Verify the Room Booking System
+
+http://localhost:8888/
+
 # OxAlto Room Booking System
 
 This is an open source application for booking rooms via a web based calendar, using cfWheels, Bootstrap3, jQuery, FullCalendar.js, and other bits.
